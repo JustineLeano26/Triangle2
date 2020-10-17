@@ -1,13 +1,14 @@
 #include<stdio.h>
 
+
 void main()
 {
   int i,j, k;
   clrscr();
 
-  for(i = 0; i < 24; i++);
-  {
-     for(j = i; j >= 0; j--);
+  for(i = 0; i < 24; i++) //;
+  {         //i      //0
+     for(j = 24; j >= i; j--) //;
      {
 	printf(" ");
      }
